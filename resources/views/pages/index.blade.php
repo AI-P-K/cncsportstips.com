@@ -3,7 +3,7 @@
 @section('content')
     <div class="main-container">
         <!-- Navigation -->
-        <!--- Image Slider -->
+        <!-- Image Slider
         <div id="slides" class="carousel slide" data-ride="carousel">
             <ul class="carousel-indicators">
                 <li data-target="#slides" data-slide-to="0" class="active"></li>
@@ -28,6 +28,7 @@
                 </div>
             </div>
         </div>
+        -->
 
         <!--- Jumbotron -->
         <div class="container-fluid">
@@ -59,7 +60,7 @@
             <div class="row text-center padding">
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <i class="fas fa-chess-king"></i>
-                    <h3>Be King of Game Pula</h3>
+                    <h3>Be King of Game</h3>
                     <p>Keep the game under control and bet responsible!</p>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -89,7 +90,5 @@
                 </div>
             </div>
         </div>
-
-
     </div>
 @endsection

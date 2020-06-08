@@ -11,13 +11,13 @@
                                 <div class="card-header" id="headingFour">
                                     <h2 class="mb-0">
                                         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                                            Collapsible Group Item #1
+                                            7:30 pm Stuttgart vs Hamburger (Germany Bundesliga)
                                         </button>
                                     </h2>
                                 </div>
                                 <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionExample">
                                     <div class="card-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        TOTAL OVER 1.5 Goals + BTTS
                                     </div>
                                 </div>
                             </div>
@@ -25,13 +25,13 @@
                                 <div class="card-header" id="headingFive">
                                     <h2 class="mb-0">
                                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                            Collapsible Group Item #2
+                                          6:00 pm  Aarnus vs Rangers (Denmark)
                                         </button>
                                     </h2>
                                 </div>
                                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                                     <div class="card-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        TOTAL OVER 1.5 Goals
                                     </div>
                                 </div>
                             </div>
@@ -39,26 +39,26 @@
                                 <div class="card-header" id="headingSix">
                                     <h2 class="mb-0">
                                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                            Collapsible Group Item #3
+                                           2:00 pm Kopetdag Asgabat vs Altyn Asyr (Turkmenistan)
                                         </button>
                                     </h2>
                                 </div>
                                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
                                     <div class="card-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        TOTAL OVER 1.5 goals + BTTS
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <h2 id="football">Football Accumulator</h2>
+                        <h2 id="football">Shortcut Legend</h2>
                         <ul class="list-group list-group-flush">
+                            <li class="list-group-item">BTTS - Both Team to Score</li>
+                            <!--<li class="list-group-item">Lazio to Win</li>
                             <li class="list-group-item">Lazio to Win</li>
                             <li class="list-group-item">Lazio to Win</li>
-                            <li class="list-group-item">Lazio to Win</li>
-                            <li class="list-group-item">Lazio to Win</li>
-                            <li class="list-group-item">Lazio to Win</li>
+                            <li class="list-group-item">Lazio to Win</li> -->
                         </ul>
                     </div>
                 </div>
