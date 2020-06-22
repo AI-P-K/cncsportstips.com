@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
     <div class="container">
-        <a class="navbar-brand" href="{{ url('/') }}">
-            {{ config('app.name', 'Laravel') }}
+        <a class="navbar-brand" href="#">
+            <img src="{{URL::asset('/img/cnclogo.png')}}" width="50" height="50" alt="" loading="lazy">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
@@ -13,7 +13,7 @@
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/services">Tips</a>
+                    <a class="nav-link" href="/tips">Tips</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/forum">Join Us</a>
@@ -21,9 +21,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/posts">Forum</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="/posts/create">Create Post</a>
-                </li>
+                </li> -->
             </ul>
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto">
@@ -45,15 +45,23 @@
 
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="/home">Dashboard</a>
+
+                            @can('manage-users')
+                                <a class="dropdown-item" href="{{route('admin.users.index')}}">
+                                    User Management
+                                </a>
+                                <a class="dropdown-item" href="/tips/create">Create Tip</a>
+                            @endcan
+                            <a class="dropdown-item" href="/posts/create">Create Post</a>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                @csrf
+                            </form>
                             <a class="dropdown-item" href="{{ route('logout') }}"
                                onclick="event.preventDefault();
                                                              document.getElementById('logout-form').submit();">
                                 {{ __('Logout') }}
                             </a>
-
-                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                @csrf
-                            </form>
                         </div>
                     </li>
                 @endguest

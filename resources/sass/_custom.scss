@@ -4,16 +4,39 @@ body {
     width: 100%;
     font-family: "Poppins", sans-serif;
     color: #222;
+
+}
+.reduced{
+    padding-bottom:0px !important;
 }
 
-#pula {
-    color: blue;
+#app{
+    background-image: url("public/img/football_backgound.jpg");
+
+
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+}
+.copyright{
+    font-size: 1.5em;
+    margin-bottom: 0px;
 }
 
+.tips{
+    padding: 0 !important;
+}
+.over_eighteen{
+    color: red;
+    font-size: 2.5em;
+    text-shadow: 2px 2px black;
+}
 .main-container {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .navbar {
@@ -25,7 +48,7 @@ body {
 }
 
 .nav-link {
-    font-size: 1.1em !important;
+    font-size: 1.3em !important;
 }
 
 .carousel-inner img {
@@ -113,7 +136,7 @@ body {
 }
 
 .social a {
-    font-size: 4.5em;
+    font-size: 4em;
     padding: 3rem;
 }
 
@@ -134,31 +157,9 @@ body {
 .fa-facebook:hover {
     color: #d5d5d5;
 }
-
-footer {
-    background-color: #3f3f3f;
-    color: #d5d5d5;
-    padding-top: 2rem;
+.footer {
+    text-align: center;
 }
-
-hr.light {
-    border-top: 1px solid #d5d5d5;
-    width: 75%;
-    margin-top: 0.8rem;
-    margin-bottom: 1rem;
-}
-
-footer a {
-    color: #d5d5d5;
-}
-
-hr.light-100 {
-    border-top: 1px solid #d5d5d5;
-    width: 100%;
-    margin-top: 0.8rem;
-    margin-bottom: 1rem;
-}
-
 /*---Media Queries --*/
 
 @media (max-width: 992px) {

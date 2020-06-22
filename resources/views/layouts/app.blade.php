@@ -17,11 +17,12 @@
         <div id="app">
             @include('inc.navbar')
             <div class="container">
-                @include('inc.messages')
+                @include('partials.alerts')
                 @yield('content')
             </div>
+            @include('inc.footer')
         </div>
-        @include('inc.footer')
+
         <!-- Scripts -->
 
         <script src="https://kit.fontawesome.com/1d31248fcd.js" crossorigin="anonymous"></script>

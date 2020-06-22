@@ -105,10 +105,11 @@ class PostsController extends Controller
         $post = Post::find($id);
 
         // Check for correct user
-        if(auth()->user()->id !==$post->user_id){
-            return redirect('/posts')->with('error', 'Unauthorized Page');
+        if(auth()->user()->id ==$post->user_id || auth()->user()->hasRole('admin')){
+            return view('posts.edit')->with('post', $post);
         }
-        return view('posts.edit')->with('post', $post);
+        return redirect('/posts')->with('error', 'Unauthorized Page');
+
     }
 
     /**
@@ -160,9 +161,11 @@ class PostsController extends Controller
     {
         $post = Post::find($id);
         // Check for correct user
-        if(auth()->user()->id !==$post->user_id){
-            return redirect('/posts')->with('error', 'Unauthorized Page');
+        if(auth()->user()->id == $post->user_id || auth()->user()->hasRole('admin')){
+            $post->delete();
+            return redirect('/posts')->with('success', 'Post Removed');
         }
+        return redirect('/posts')->with('error', 'Unauthorized Page');
 
         // if(auth()->user()->role !== 'admin'){
         //return redirect('/posts')->with('error', 'Unauthorized Page');}
@@ -172,7 +175,7 @@ class PostsController extends Controller
             Storage::delete('public/cover_images/.$post->cover_image');
         }
 
-        $post->delete();
-        return redirect('/posts')->with('success', 'Post Removed');
+
+
     }
 }

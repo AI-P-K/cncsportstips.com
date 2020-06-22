@@ -29,7 +29,6 @@
             </div>
         </div>
         -->
-
         <!--- Jumbotron -->
         <div class="container-fluid">
             <div class="row jumbotron">
@@ -41,7 +40,6 @@
                 </div>
             </div>
         </div>
-
         <!--- Welcome Section -->
         <div class="container-fluid padding">
             <div class="row welcome text-center">
@@ -54,10 +52,9 @@
                 </div>
             </div>
         </div>
-
         <!--- Three Column Section -->
-        <div class="container-fluid padding">
-            <div class="row text-center padding">
+        <div class="container-fluid padding reduced">
+            <div class="row text-center padding reduced">
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <i class="fas fa-chess-king"></i>
                     <h3>Be King of Game</h3>
@@ -74,19 +71,18 @@
                     <p>Be an active member on our website and let us know your opinion!</p>
                 </div>
             </div>
-            <hr>
         </div>
-
         <!--- Connect -->
         <div class="container-fluid padding">
             <div class="row text-center padding">
                 <div class="col-12">
-                    <h2>About</h2>
+                    <h2>Connect</h2>
                 </div>
                 <div class="col-12 social padding">
-                    <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
-                    <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                    <a href="https://vk.com/"><i class="fab fa-vk"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.facebook.com/cnc.sportstips"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/CSportstips"><i class="fab fa-twitter"></i></a>
+                    <a href="https://ok.ru/cnc.sportstips"><i class="fab fa-vk"></i></a>
                 </div>
             </div>
         </div>
